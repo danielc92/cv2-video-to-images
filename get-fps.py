@@ -1,7 +1,9 @@
 # Code is adapted from https://www.learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
 import cv2
 
-capture = cv2.VideoCapture('./sample.mp4')
+video_path = './sample.mp4'
+
+capture = cv2.VideoCapture(video_path)
 
 (major_ver, minor_ver, subminor_ver) = (cv2.__version__.split('.'))
 

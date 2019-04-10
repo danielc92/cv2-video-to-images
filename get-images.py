@@ -1,7 +1,9 @@
 # Imports
 import cv2
 
-capture = cv2.VideoCapture('./sample.mp4')
+video_path = './sample.mp4'
+
+capture = cv2.VideoCapture(video_path)
 
 # Calculate how often to export frame to image
 frames_per_second = 30
