@@ -1,36 +1,33 @@
-# Project Title
-A few sentences about the project.
-What are you building?
-What problem are you trying to solve?
-Who is the project for? Timeframe?
+# Extract images from video
+Pulling data from video files (images).
 
 # Before you get started
-Concepts/Software/Programming modules a user may have to read up on before getting started with this project. eg. 'Read about [neural networks](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?gi=44b811975215) before getting started.'
+- Basic Python (3.6.5)
 
 # Setup
 **How to obtain this repository:**
 ```sh
-git clone https//link.to.this.projects.git-repo
+git clone 
 ```
+
+**Environment**
+- Python 3.6.5
+- MacOS
+
 **Modules/dependencies:**
-- `pandas`
-- `requests`
-- `jupyter`
-- `sklearn`
+- `cv2`
 
 Install the following dependences:
 ```sh
-cd /local/location/of/this/repo
-pip install requirements.txt
+pip install cv2
 ```
 
 # Tests
-- Tests performed on this project. What did you do? Which files were used? Was it successful?
+- Calculating frame per second from video file
+- Exporting image from `sample.mp4` every 2 seconds, using frames per second as an input
 
 # Contributors
-- Name of Contributor 1
-- Name of Contributor 2
+- Daniel Corcoran
 
 # Sources
-- Sources for techniques/tutorials used in this project to help newcomers
-- Sources for data used in this project
+- [Capturing frames per second using cv2](https://www.learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/)
