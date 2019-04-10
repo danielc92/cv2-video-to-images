@@ -22,6 +22,17 @@ Install the following dependences:
 pip install cv2
 ```
 
+# Running
+First get the frames per second of the video file.
+```sh
+python3 get-fps.py
+```
+Next, change settings in `get-images.py` with the frames value (int) gathered from `get-fps.py` and seconds interval and run.
+```sh
+python3 get-images.py
+```
+After this step, your images should be saved in image folder.
+
 # Tests
 - Calculating frame per second from video file
 - Exporting image from `sample.mp4` every 2 seconds, using frames per second as an input
